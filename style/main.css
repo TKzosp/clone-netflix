@@ -1,0 +1,15 @@
+/* Reset CSS */
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+/* variávis */
+:root {
+  --vermelho: #e50914;
+  --preto: #141414;
+}
+
+/* Regras de CSS */
+body {
+}

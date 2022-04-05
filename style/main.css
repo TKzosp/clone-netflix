@@ -12,4 +12,26 @@
 
 /* Regras de CSS */
 body {
+  background-color: var(--preto);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+header .logo {
+  color: var(--vermelho);
+  font-family: 'Arial Black', Times;
+  font-size: 40px;
+}
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+header nav a:hover {
+  color: #fff;
 }

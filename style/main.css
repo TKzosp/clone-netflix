@@ -56,3 +56,13 @@ header nav a:hover {
   justify-content: center;
   align-items: flex-start;
 }
+.titulo {
+  font-size: 2.5rem;
+}
+
+.butoes {
+}
+
+.filme-principal .descricao {
+  margin-bottom: 2.5rem;
+}

@@ -1,41 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/main.css" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style/main.css" />
 
-    <!-- responsividade -->
-    <link rel="style/responsive.css" />
+        <!-- responsividade -->
+        <link rel="stylesheet" href="style/responsive.css" />
 
-    <title>NETFLIX | CLONE</title>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <h2 class="logo">NETFLIX</h2>
-        <nav>
-          <a href="#">Inicio</a>
-          <a href="#">Filmes</a>
-          <a href="#">Séries</a>
-          <a href="#">Documentários</a>
-        </nav>
-      </div>
-    </header>
-    <main class="">
-      <div class="filme-principal">
-        <div class="container">
-          <h3 class="titulo">HOUSE OF CARDS</h3>
-          <p class="descricao">
-            Um político inescrupuloso não mede esforços para conquistar o poder
-            nos EUA neste drama vencedor do Emmy e do Globo de Ouro.
-          </p>
+        <!-- owl css -->
+        <link rel="stylesheet" href="style/owl-css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="style/owl-css/owl.theme.default.min.css" />
+
+        <title>NETFLIX | CLONE</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h2 class="logo">NETFLIX</h2>
+                <nav>
+                    <a href="#">Inicio</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Documentários</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="filme-principal">
+                <div class="container">
+                    <h3 class="titulo">HOUSE OF CARDS</h3>
+                    <p class="descricao">
+                        Um político inescrupuloso não mede esforços para
+                        conquistar o poder nos EUA neste drama vencedor do Emmy
+                        e do Globo de Ouro.
+                    </p>
+                    <div class="buttons">
+                        <button role="button" target="_blank" class="button">
+                            <i class="fa-solid fa-play"></i>
+                            <a
+                                href="https://www.netflix.com/br/title/70178217"
+                                target="_blank"
+                                >Assista ao traier</a
+                            >
+                        </button>
+                        <button role="button" class="button">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <a
+                                href="https://www.themoviedb.org/tv/1425-house-of-cards?language=pt-BR"
+                                target="_blank"
+                                rel="Click here to get more info about"
+                            ></a>
+                            Mais informações
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="carousel">
+            <div class="owl-carousel owl-thme">
+                <div class="item">
+                    <img src="img/mini1.jpg" alt="" srcset="" />
+                </div>
+                <div class="item">
+                    <img
+                        class="box-filme"
+                        src="img/mini2.jpg"
+                        alt=""
+                        srcset=""
+                    />
+                </div>
+                <div class="item">
+                    <img src="img/mini3.jpg" alt="" srcset="" />
+                </div>
+                <div class="item">
+                    <img src="img/mini4.jpg" alt="" srcset="" />
+                </div>
+                <div class="item">
+                    <img src="img/mini5.jpg" alt="" srcset="" />
+                </div>
+                <div class="item">
+                    <img src="img/mini6.jpg" alt="" srcset="" />
+                </div>
+                <div class="item">
+                    <img src="img/mini7.jpg" alt="" srcset="" />
+                </div>
+                <div class="item">
+                    <img src="img/mini8.jpg" alt="" srcset="" />
+                </div>
+                <div class="item">
+                    <img src="img/mini9.jpg" alt="" srcset="" />
+                </div>
+                <div class="item">
+                    <img src="img/mini10.jpg" alt="" srcset="" />
+                </div>
+            </div>
         </div>
-        <div class="butoes">
-          <button role="button" class="butao">Mais informações</button>
-          <button role="button" class="butao">Assista agora</button>
-        </div>
-      </div>
-    </main>
-  </body>
+
+        <script
+            src="https://kit.fontawesome.com/cfe23c4a4b.js"
+            crossorigin="anonymous"
+        ></script>
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
 </html>
